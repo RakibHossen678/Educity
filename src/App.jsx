@@ -1,16 +1,13 @@
-
-
-import './App.css'
+import Navbar from "./Components/Navbar/Navbar";
 
 function App() {
-
   return (
-    <>
-      
-      <h1>Vite + React</h1>
-      
-    </>
-  )
+    <div className=" font-outfit bg-[#f5f5f5] ">
+      <div className="">
+        <Navbar></Navbar>
+      </div>
+    </div>
+  );
 }
 
-export default App
+export default App;
