@@ -2,7 +2,7 @@ import logo from "../../assets/logo.png";
 import "./Nav.css";
 const Navbar = () => {
   return (
-    <div className="bg-[#333] w-full z-10 fixed text-[#fff]">
+    <div className=" w-full z-10 fixed text-[#fff]">
       <nav className=" mx-auto w-9/12 flex items-center justify-between  py-3">
         <img className="w-40" src={logo} alt="" />
         <ul className="flex items-center cursor-pointer text-base space-x-9 ">
