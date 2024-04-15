@@ -1,0 +1,8 @@
+.caption{
+    transition: 0.4s;
+    padding-top: 70%;
+}
+.program:hover .caption{
+    opacity: 1;
+    padding-top: 0;
+}
