@@ -3,6 +3,7 @@ import Campus from "./Components/Campus/Campus";
 import Hero from "./Components/Hero/Hero";
 import Navbar from "./Components/Navbar/Navbar";
 import Programs from "./Components/Programs/Programs";
+import Slider from "./Components/Slider/Slider";
 import Testimonials from "./Components/Testimonials/Testimonials";
 
 function App() {
@@ -15,6 +16,10 @@ function App() {
         <About></About>
         <Campus></Campus>
         <Testimonials></Testimonials>
+        <div className="pb-20">
+
+        <Slider></Slider>
+        </div>
       </div>
     </div>
   );
