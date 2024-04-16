@@ -2,13 +2,13 @@ import "./Program.css";
 import program_1 from "../../assets/program-1.png";
 import program_2 from "../../assets/program-2.png";
 import program_3 from "../../assets/program-3.png";
-import pro_icon_1 from '../../assets/program-icon-1.png'
-import pro_icon_2 from '../../assets/program-icon-2.png'
-import pro_icon_3 from '../../assets/program-icon-3.png'
+import pro_icon_1 from "../../assets/program-icon-1.png";
+import pro_icon_2 from "../../assets/program-icon-2.png";
+import pro_icon_3 from "../../assets/program-icon-3.png";
 const Programs = () => {
   return (
-    <div >
-        <div className="text-center pt-10">
+    <div>
+      <div className="text-center pt-10">
         <p className="text-[#212ea0] text-sm font-medium pb-1">OUR PROGRAM</p>
         <p className="text-3xl font-semibold">What We Offer</p>
       </div>
@@ -20,7 +20,7 @@ const Programs = () => {
             <p>Graduation Degree</p>
           </div>
         </div>
-        <div className="relative program group" >
+        <div className="relative program group">
           <img className="rounded-2xl  " src={program_2} alt="" />
           <div className="absolute caption opacity-0   top-0 rounded-2xl left-0 bottom-0 right-0 bg-[rgba(0,15,152,0.3)] flex flex-col justify-center items-center">
             <img className="w-16" src={pro_icon_2} alt="" />
