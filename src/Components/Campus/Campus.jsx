@@ -6,7 +6,7 @@ import gallery_3 from "../../assets/gallery-3.png";
 import gallery_4 from "../../assets/gallery-4.png";
 const Campus = () => {
   return (
-    <div className="pb-20">
+    <div className="Campus pb-20">
       <div className="text-center pt-10">
         <p className="text-[#212ea0] text-sm font-medium pb-1">GALLERY</p>
         <p className="text-3xl font-semibold">Campus Photos</p>

@@ -10,7 +10,7 @@ import user_4 from "../../assets/user-4.png";
 import { Pagination } from "swiper/modules";
 const Slider = () => {
   return (
-    <div>
+    <div className="Testimonial">
       <Swiper
         slidesPerView={"auto"}
         loop={true}

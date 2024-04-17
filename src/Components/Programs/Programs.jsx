@@ -8,7 +8,7 @@ import pro_icon_3 from "../../assets/program-icon-3.png";
 const Programs = () => {
   return (
     <div>
-      <div className="text-center pt-10">
+      <div className="Programs text-center pt-10">
         <p className="text-[#212ea0] text-sm font-medium pb-1">OUR PROGRAM</p>
         <p className="text-3xl font-semibold">What We Offer</p>
       </div>

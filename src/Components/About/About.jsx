@@ -3,7 +3,7 @@ import about_img from "../../assets/about.png";
 import play_icon from "../../assets/play-icon.png";
 const About = () => {
   return (
-    <div className="py-24 flex items-center justify-between  w-9/12 mx-auto">
+    <div className="About py-24 flex items-center justify-between  w-9/12 mx-auto">
       <div className="w-[40%] relative ">
         <img className="w-full rounded-xl" src={about_img} alt="" />
         <img className="absolute w-14 top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]" src={play_icon} alt="" />

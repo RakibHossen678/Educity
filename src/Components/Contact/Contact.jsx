@@ -30,7 +30,7 @@ const Contact = () => {
     }
   };
   return (
-    <div className="py-20">
+    <div className="py-20 Contact">
       <div className="text-center pb-10">
         <p className="text-[#212ea0] text-sm font-medium pb-1">CONTACT US</p>
         <p className="text-3xl font-semibold">Get in Touch</p>
